@@ -2,7 +2,7 @@
 name = "agent-ia"
 version = "0.1.0"
 description = ""
-authors = ["julienlucas <contact@julienlucas.com>"]
+authors = ["Gloire ODG"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
