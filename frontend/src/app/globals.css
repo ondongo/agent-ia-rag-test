@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: red;
+  --foreground: red;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: red;
+    --foreground: red;
+  }
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background: white;
+}
+
+@keyframes bouncing {
+  0%, 100% {
+    transform: translateY(120%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+.animate-bouncing {
+  animation: bouncing 2s infinite;
+}
+
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animation-delay-400 {
+  animation-delay: 400ms;
+}

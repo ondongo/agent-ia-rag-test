@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "agent-ia"
+version = "0.1.0"
+description = ""
+authors = ["julienlucas <contact@julienlucas.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+dotenv = "^0.9.9"
+pymupdf = "^1.25.5"
+pydantic = "^2.11.3"
+python-multipart = "^0.0.20"
+llama-index = "^0.12.31"
+llama-index-core = "^0.12.31"
+llama-index-vector-stores-pinecone = "^0.4.5"
+llama-index-tools-google = "^0.3.0"
+llama-index-readers-file = "^0.4.7"
+llama-index-llms-huggingface-api = "^0.4.1"
+llama-index-embeddings-huggingface-api = "^0.3.0"
+llama-index-embeddings-mistralai = "^0.3.0"
+llama-index-llms-mistralai = "^0.4.0"
+mistralai = "^1.7.0"
+pinecone = "^6.0.2"
+langfuse = "^2.60.3"
+aiohttp = "^3.11.16"
+uvicorn = "^0.34.2"
+fastapi = "^0.115.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
